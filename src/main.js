@@ -1,5 +1,4 @@
-// import Scroll
-import('./js/scroll.js');
+import('./js/mobile-menu.js');
 
 // import Swiper JS
 import('./js/swiper.js');
