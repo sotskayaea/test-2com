@@ -5,19 +5,21 @@
 //     slidesPerView: 'auto',
 //     spaceBetween: 16,
 //     freeMode: true,
-  
+
 //     // If we need pagination
 //     pagination: {
 //       el: '.swiper-pagination',
 //       clickable: true,
 //     },
-  
+
 //   });
 const swiper = new Swiper('.swiper', {
   // Optional parameters
   direction: 'horizontal',
+  centeredSlides: false,
   loop: true,
-  slidesPerView: 'auto',
+  watchOverFlow: true,
+
   // spaceBetween: 16,
 
   // If we need pagination
@@ -30,5 +32,4 @@ const swiper = new Swiper('.swiper', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-
 });
