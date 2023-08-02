@@ -1,0 +1,1 @@
+(()=>{window.addEventListener("scroll",function(){var o=document.getElementById("back-to-up");o&&(o.style.visibility=window.scrollY>window.innerHeight?"visible":"hidden")}),document.querySelector("#back-to-up").addEventListener("click",e);function e(){window.scrollTo({top:0,behavior:"smooth"})}})();
